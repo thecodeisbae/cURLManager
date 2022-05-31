@@ -15,7 +15,7 @@ Basic Usage
     
 *function debug($args)*    
 *{*  
-   echo '<pre>',print_r($args,1),'</pre>';  
+    echo '<pre>',print_r($args,1),'</pre>';  
 *}*  
 
-*cURLManager::call('https://www.boredapi.com/api/activity');*     
+*debug(*cURLManager::call('https://www.boredapi.com/api/activity')*)*;    
