@@ -18,4 +18,4 @@ Basic Usage
     *&ensp;echo '\<pre\>',print_r($args,1),'\<\/pre\>';*  
 *}*  
 
-*debug(*cURLManager::call('[https://www.boredapi.com/api/activity](https://randomuser.me/api/)')*)*;    
+*debug(*cURLManager::call('https://randomuser.me/api/')*)*;    
