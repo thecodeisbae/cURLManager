@@ -15,7 +15,7 @@ Basic Usage
     
 *function debug($args)*    
 *{*  
-    *echo '\<pre\>',print_r($args,1),'\<\/pre\>';*  
+    *&ensp;echo '\<pre\>',print_r($args,1),'\<\/pre\>';*  
 *}*  
 
 *debug(*cURLManager::call('https://www.boredapi.com/api/activity')*)*;    
