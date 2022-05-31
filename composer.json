@@ -1,0 +1,17 @@
+{
+    "name": "thecodeisbae/curlmanager",
+    "type": "library",
+    "version": "v1.0.0",
+    "description": "cURL Manager class for easy usage",
+    "keywords": ["cURL", "cURL-manager"],
+    "homepage": "https://github.com/thecodeisbae/cURLManager.git",
+    "license": "MIT",
+    "authors": [{
+        "name": "Marilyn Prince",
+        "email": "thecodeisbae@gmail.com",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "files": ["src/cURLManager.php"]
+    }
+}
