@@ -9,7 +9,7 @@ namespace thecodeisbae;
 class cURLManager
 {
     /** This function make an call on the provided $link arg, retrieve and send result as a stdClass object */
-    static function call($link,$type = '',array $args = [],array $headers = [],bool $onlyResult = true)
+    static function call($link,$type = '',$resultJson = false,array $args = [],array $headers = [],bool $onlyResult = true)
     {
         try
         {
@@ -78,7 +78,10 @@ class cURLManager
                 $headerstring = substr($response, 0, $header_size);
                 // $body = substr($response, $header_size);
                 // return json_decode($body);
-                return json_decode($response);
+                if($resultJson)
+                    return json_decode($response);
+                else
+                    return $response;
             }
             else{
                 
