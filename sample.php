@@ -1,6 +1,6 @@
 <?php
 
-require 'cURLManager.php';
+require 'src\cURLManager.php';
 use thecodeisbae\cURLManager;
 
 function debug($args) : void
