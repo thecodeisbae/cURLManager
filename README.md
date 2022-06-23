@@ -4,9 +4,10 @@ An simple cURL call manager with PHP
 The Class main function is the call function which as 5 overloads :    
   *&ensp;cURLManager::call($link)*  
   *&ensp;cURLManager::call($link,$method)*   
-  *&ensp;cURLManager::call($link,$method,$data)*  
-  *&ensp;cURLManager::call($link,$method,$data,$headers)*  
-  *&ensp;cURLManager::call($link,$method,$data,$headers,$resultFlag)*
+  *&ensp;cURLManager::call($link,$method,$resultJson)*   
+  *&ensp;cURLManager::call($link,$method,$resultJson,$data)*  
+  *&ensp;cURLManager::call($link,$method,$resultJson,$data,$headers)*  
+  *&ensp;cURLManager::call($link,$method,$resultJson,$data,$headers,$resultFlag)*
 
 Basic Usage
 
